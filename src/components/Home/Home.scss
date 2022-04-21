@@ -1,0 +1,40 @@
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+
+  &-image {
+    display: block;
+    margin: auto;
+    width: 33%;
+    margin-left: 5%;
+  }
+
+  &-info {
+    width: 65%;
+
+    &-text {
+      margin-top: 15%;
+      h1 {
+        font-family: "montserrat";
+        font-size: 55px;
+      }
+
+      h3 {
+          font-family: "montserrat";
+        font-size: 30px;
+      }
+    }
+
+    &-btn {
+      margin-top: 8%;
+    }
+  }
+}
+
+.bns-vector {
+    margin-top: 5%;
+    width: 90vw;
+    height: 60vh;
+    margin-bottom: 5%;
+}
